@@ -22,7 +22,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: 初始化
+    - name: 初始
       env:
         DEBIAN_FRONTEND: noninteractive
       run: |
